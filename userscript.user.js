@@ -4,12 +4,12 @@
 // @version      0.1
 // @description  try to take over the canvas!
 // @author       r/MexicoPlace Discord Server community
-// @match        https://hot-potato.reddit.com/embed*
+// @match        https://garlic-bread.reddit.com/embed
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
 // ==/UserScript==
 if (window.top !== window.self) {
-    window.addEventListener('load', () => {
+    document.addEventListener('load', () => {
         document.querySelector('#shadow-root div.frame').appendChild((function () {
             const i = document.createElement("img");
             i.src = "https://raw.githubusercontent.com/francerz/mexico-place-2023/master/MexicoFTW_template.png";
