@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the canvas!
 // @author       r/MexicoPlace Discord Server community
-// @match        https://garlic-bread.reddit.com/embed
+// @match        https://garlic-bread.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
 // ==/UserScript==
