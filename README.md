@@ -23,9 +23,13 @@
 
 ##  Solucion de problemas
 
+   #### *No puedo ver el diseño*
    - Si no se visualiza el diseño, prueba actualizando la pagina de [r/place](https://www.reddit.com/r/place/?screenmode=fullscreen&cx=-229&cy=31&px=104).
-   - Asegurate que Tampermonkey esta "Activado" dando click en el icono del plugin/extension. ![Tampermonkey script install](./assets/tampermonkey_activado.png.png)
+   - Asegurate que Tampermonkey esta "Activado" dando click en el icono del plugin/extension. ![Tampermonkey script install](./assets/tampermonkey_activado.png)
+   - Repite el paso 2 y reinstala el script en Tampermonkey utilizando el link del script.
 
+   #### *Mi diseño esta desactualizado*
+   - Repite el paso 2 y reinstala el script en Tampermonkey utilizando el link del script.
 ## Como funciona
 
 En r/place saldran cuadros pequenos en el lugar del disenio, tenemos que pintar los cuadros de atras grandes del mismo color que el cuadro chiquito
