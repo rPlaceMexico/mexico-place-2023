@@ -13,8 +13,7 @@ if (window.top !== window.self) {
     window.addEventListener('load', () => {
         let container =
             document.querySelector('garlic-bread-embed').shadowRoot.children[0]
-            .querySelector('garlic-bread-canvas').shadowRoot.children[0]
-            .querySelector('.container');
+            .querySelector('garlic-bread-canvas').shadowRoot.children[0];
         container.appendChild((function () {
             const i = document.createElement("img");
             i.src = "https://raw.githubusercontent.com/francerz/mexico-place-2023/master/MexicoFTW_template.png";
