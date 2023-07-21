@@ -10,7 +10,7 @@ INTRUCCIONES:
 
 2.- Una vez unstalado el plugin hay que instalar el script (aparece un popup del plugin preguntando si quieres instalarlo
 
-  Scrip: https://github.com/Gerardo-Pastor/MexicoPlace/raw/main/userscript.user.js
+  Scrip: https://github.com/francerz/mexico-place-2023/raw/master/userscript.user.js
   
 3.- Una vez instalado todo pueden ir a la pagina de r/place y deberia funcionar si no lo hace hagan CTRL + F5 o SHIFT + F5
 
