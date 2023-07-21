@@ -9,7 +9,7 @@
    - FIREFOX  
      https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/
 
-1. Una vez unstalado el plugin hay que instalar el script entrando a la siguiente dirección:
+1. Una vez instalado el plugin hay que instalar el script entrando a la siguiente dirección:
 
    **SCRIPT: https://github.com/rPlaceMexico/mexico-place-2023/raw/master/userscript.user.js**
   
