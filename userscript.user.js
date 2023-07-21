@@ -11,7 +11,11 @@
 console.log('SCRIPT r/MexicoPlace template');
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
-        document.querySelector('#shadow-root div.frame').appendChild((function () {
+        let container =
+            document.querySelector('garlic-bread-embed').shadowRoot.children[0]
+            .querySelector('garlic-bread-camera').shadowRoot.children[0]
+            .querySelector('.position-container');
+        container.appendChild((function () {
             const i = document.createElement("img");
             i.src = "https://raw.githubusercontent.com/francerz/mexico-place-2023/master/MexicoFTW_template.png";
             i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;";
