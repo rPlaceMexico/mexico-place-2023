@@ -9,18 +9,22 @@
 // @grant        none
 // ==/UserScript==
 console.log('SCRIPT r/MexicoPlace template');
+
+function setImageElement() {
+    let container =
+        document.querySelector('garlic-bread-embed').shadowRoot.children[0]
+        .querySelector('garlic-bread-canvas').shadowRoot.children[0];
+    container.appendChild((function () {
+        const i = document.createElement("img");
+        i.src = "https://raw.githubusercontent.com/francerz/mexico-place-2023/master/MexicoFTW_template.png";
+        i.style = "position:absolute;left:0;top:0;image-rendering:pixelated;width:1000px;height:1000px;";
+        console.log(i);
+        return i;
+    })());
+}
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
-        let container =
-            document.querySelector('garlic-bread-embed').shadowRoot.children[0]
-            .querySelector('garlic-bread-canvas').shadowRoot.children[0];
-        container.appendChild((function () {
-            const i = document.createElement("img");
-            i.src = "https://raw.githubusercontent.com/francerz/mexico-place-2023/master/MexicoFTW_template.png";
-            i.style = "position:absolute;left:0;top:0;image-rendering:pixelated;width:1000px;height:1000px;";
-            console.log(i);
-            return i;
-        })());
+        setTimeout(setImageElement, 5000);
     }, false);
 
 }
