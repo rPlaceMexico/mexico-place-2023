@@ -16,7 +16,7 @@ function setImageElement() {
         .querySelector('garlic-bread-canvas').shadowRoot.children[0];
     container.appendChild((function () {
         const i = document.createElement("img");
-        i.src = "https://raw.githubusercontent.com/francerz/mexico-place-2023/master/MexicoFTW_template.png";
+        i.src = "https://raw.githubusercontent.com/rPlaceMexico/mexico-place-2023/master/MexicoFTW_template.png";
         i.style = "position:absolute;left:0;top:0;image-rendering:pixelated;width:1000px;height:1000px;";
         console.log(i);
         return i;
