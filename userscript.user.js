@@ -17,7 +17,7 @@ function setImageElement() {
     container.appendChild((function () {
         const i = document.createElement("img");
         i.src = "https://raw.githubusercontent.com/rPlaceMexico/mexico-place-2023/master/MexicoFTW_template.png";
-        i.style = "position:absolute;left:0;top:0;image-rendering:pixelated;width:1000px;height:1000px;";
+        i.style = "position:absolute;left:0;top:0;image-rendering:pixelated;width:1500px;height:1000px;";
         console.log(i);
         return i;
     })());
