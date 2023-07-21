@@ -8,8 +8,9 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
 // ==/UserScript==
+console.log('SCRIPT r/MexicoPlace template');
 if (window.top !== window.self) {
-    document.addEventListener('load', () => {
+    window.addEventListener('load', () => {
         document.querySelector('#shadow-root div.frame').appendChild((function () {
             const i = document.createElement("img");
             i.src = "https://raw.githubusercontent.com/francerz/mexico-place-2023/master/MexicoFTW_template.png";
