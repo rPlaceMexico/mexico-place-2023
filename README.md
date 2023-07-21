@@ -3,13 +3,17 @@
 ## INSTRUCCIONES
 
 1. Descargar el plugin para navergador:
-   - CHROME/OPERA https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
-   - FIREFOX https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/
+   - CHROME/OPERA  
+     https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
 
-2. Una vez unstalado el plugin hay que instalar el script entrando a la siguiente dirección:
+   - FIREFOX  
+     https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/
+
+1. Una vez unstalado el plugin hay que instalar el script entrando a la siguiente dirección:
+
    **SCRIPT: https://github.com/francerz/mexico-place-2023/raw/master/userscript.user.js**
   
-3. Una vez instalado todo, en r/place y deberia funcionar si no lo hace hagan CTRL + F5 o SHIFT + F5
+2. Una vez instalado todo, en r/place y deberia funcionar si no lo hace hagan CTRL + F5 o SHIFT + F5
 
 ## COMO FUNCIONA
 
@@ -19,8 +23,8 @@ PARA HACER APORTES
 
 1. Editar MexicoFTW.png
 
-Se debe primero editar la imagen llamada MexicoFTW.png esta tiene el mismo tamaño que el canvas de r/place.
-Cada pixel en la imagen corresponde a un pixel en r/place con las mismas coordenadas. 
+   Se debe primero editar la imagen llamada MexicoFTW.png esta tiene el mismo tamaño que el canvas de r/place.
+   Cada pixel en la imagen corresponde a un pixel en r/place con las mismas coordenadas. 
 
 2. Ejecutar el script de python dithering.py en la misma carpeta que la imagen.
 
