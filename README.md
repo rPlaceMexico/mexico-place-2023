@@ -1,21 +1,35 @@
 # PLANTILLA R/MEXICO (JULIO 2023)
 
-## INSTALAR SCRIPT
+## Instrucciones
 
-1. Descargar el plugin para navergador:
+1. Descargar el plugin/extension Tampermonkey en su navegador:
    - CHROME/OPERA  
      https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
+
+     ![Tampermonkey chrome extension](./assets/tampermonkey.png)
 
    - FIREFOX  
      https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/
 
-2. Una vez unstalado el plugin hay que abrir el siguiente script:
+2. Una vez instalado Tampermonkey, hay que instalar el script entrando a la siguiente dirección:
 
    **SCRIPT: https://github.com/rPlaceMexico/mexico-place-2023/raw/master/userscript.user.js**
-  
-3. Una vez instalado todo, en `r/place` y actualicen la página.
 
-## COMO FUNCIONA
+      ![Tampermonkey script install](./assets/tampermonkey_install_script.png)
+
+
+3. Una vez instalado, abre la pagina de [r/place](https://www.reddit.com/r/place/?screenmode=fullscreen&cx=-229&cy=31&px=104) y deberias ver el diseño pixeleado.
+
+##  Solucion de problemas
+
+   #### *No puedo ver el diseño*
+   - Si no se visualiza el diseño, prueba actualizando la pagina de [r/place](https://www.reddit.com/r/place/?screenmode=fullscreen&cx=-229&cy=31&px=104).
+   - Asegurate que Tampermonkey esta "Activado" dando click en el icono del plugin/extension. ![Tampermonkey script install](./assets/tampermonkey_activado.png)
+   - Repite el paso 2 y reinstala el script en Tampermonkey utilizando el link del script.
+
+   #### *Mi diseño esta desactualizado*
+   - Repite el paso 2 y reinstala el script en Tampermonkey utilizando el link del script.
+## Como funciona
 
 En r/place saldran cuadros pequenos en el lugar del disenio, tenemos que pintar los cuadros de atras grandes del mismo color que el cuadro chiquito
 
