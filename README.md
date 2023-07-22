@@ -1,6 +1,6 @@
-# PLANTILLA DE PIXELES PARA R/MEXICO (JULIO 2023)
+# PLANTILLA R/MEXICO (JULIO 2023)
 
-## INSTRUCCIONES
+## INSTALAR SCRIPT
 
 1. Descargar el plugin para navergador:
    - CHROME/OPERA  
@@ -9,11 +9,11 @@
    - FIREFOX  
      https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/
 
-1. Una vez unstalado el plugin hay que instalar el script entrando a la siguiente dirección:
+2. Una vez unstalado el plugin hay que abrir el siguiente script:
 
    **SCRIPT: https://github.com/rPlaceMexico/mexico-place-2023/raw/master/userscript.user.js**
   
-2. Una vez instalado todo, en r/place y deberia funcionar si no lo hace hagan CTRL + F5 o SHIFT + F5
+3. Una vez instalado todo, en `r/place` y actualicen la página.
 
 ## COMO FUNCIONA
 
