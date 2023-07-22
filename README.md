@@ -1,4 +1,4 @@
-# PLANTILLA DE PIXELES PARA R/MEXICO (JULIO 2023)
+# PLANTILLA R/MEXICO (JULIO 2023)
 
 ## Instrucciones
 
@@ -17,9 +17,8 @@
 
       ![Tampermonkey script install](./assets/tampermonkey_install_script.png)
 
-  
+
 3. Una vez instalado, abre la pagina de [r/place](https://www.reddit.com/r/place/?screenmode=fullscreen&cx=-229&cy=31&px=104) y deberias ver el diseño pixeleado.
-   
 
 ##  Solucion de problemas
 
