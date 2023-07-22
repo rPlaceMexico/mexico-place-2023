@@ -1,5 +1,11 @@
 # PLANTILLA R/MEXICO (JULIO 2023)
 
+<div style="position:relative;display:hidden;min-height:360px;max-height:480px">
+   <div style="position:absolute;top:-494px;left:-730px;width:2000px;height:1000px">
+      <img src="./MexicoFTW.png">
+   </div>
+</div>
+
 ## Instrucciones
 
 1. Descargar el plugin/extension Tampermonkey en su navegador:
