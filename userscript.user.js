@@ -1,9 +1,12 @@
 // ==UserScript==
 // @name         r/MexicoPlace template
 // @namespace    http://tampermonkey.net/
+// @downloadURL  https://github.com/rPlaceMexico/mexico-place-2023/raw/master/userscript.user.js
+// @updateURL    https://github.com/rPlaceMexico/mexico-place-2023/raw/master/userscript.user.js
 // @version      0.1
 // @description  try to take over the canvas!
 // @author       r/MexicoPlace Discord Server community
+// @match        https://hot-potato.reddit.com/embed*
 // @match        https://garlic-bread.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
