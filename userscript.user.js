@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @downloadURL  https://github.com/rPlaceMexico/mexico-place-2023/raw/master/userscript.user.js
 // @updateURL    https://github.com/rPlaceMexico/mexico-place-2023/raw/master/userscript.user.js
-// @version      0.1
+// @version      1.20230721.2225
 // @description  try to take over the canvas!
 // @author       r/MexicoPlace Discord Server community
 // @match        https://hot-potato.reddit.com/embed*
