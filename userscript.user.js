@@ -23,7 +23,7 @@ console.log('SCRIPT r/MexicoPlace template');
         container.appendChild((function () {
             i.src = "https://raw.githubusercontent.com/rPlaceMexico/mexico-place-2023/master/MexicoFTW_template.png?c="+c++;
             i.style = "position:absolute;left:0;top:0;image-rendering:pixelated;width:100%;height:100%;";
-            setTimeout(setImageElement, 300000);
+            setTimeout(setImageElement, 60000); // cada minuto, antes 5 minutos
             console.log(i);
             return i;
         })());
