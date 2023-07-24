@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image
 import numpy as np
 
-target_filepath = Path('MexicoFTW.png')
+target_filepath = Path('MexicoFTW_Yesenia_7.png')
 img = Image.open(target_filepath).convert('RGBA')  # make sure image is RGBA
 img_3x = img.resize((img.width * 3, img.height * 3), Image.NEAREST)
 img_3x_arr = np.array(img_3x)
