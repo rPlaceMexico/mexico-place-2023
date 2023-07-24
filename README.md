@@ -3,7 +3,7 @@
 <div style="position:relative;display:hidden;min-height:360px;max-height:480px">
    <div style="transform-origin:0px 0px;transform:scale(2);image-rendering:pixelated">
       <div style="position:absolute;top:-494px;left:-730px;width:2000px;height:1000px">
-         <img src="./MexicoFTW_template.png">
+         <img src="./MexicoFTW.png">
       </div>
    </div>
 </div>
